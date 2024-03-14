@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- EJERCICIO 1: -->
+<html>
+<head>
+<title> Minijuego </title>
+</head>
+<body>
+<header>
+<nav>
+</nav>
+</header>
+<main>
+<form>
+<h2>Adivina el numero</h2>
+<p>Adivina el numero entre el 1 y 100</p>
+<p id="mensaje"><em>Haz click</em></p>
+<p><label for="numero">Numero</label><input type="number" name="numero" id="numero" placeholder="introduce el numero"/></p>
+<p><input type="button" value="boton" id="adivina"/></p>
+</form>
+<script>
+let numero_random = Math.floor(Math.random()*100)+1;
+let adivina = document.getElementById("adivina");
+
+adivina.addEventListener("click", function(event){
+	console.log("click!");
+	
+	const numero = document.getElementById("numero").value;
+	
+	let mensaje = document.getElementById("mensaje");
+	
+	if(numero === ""){
+		console.log("Introduce un numero");
+		mensaje.innerHTML = "Introduce un numero";
+		
+		return;
+	}
+	
+	if (numero > numero_random){
+		console.log("El numero es menor");
+		mensaje.innerHTML = "El numero es menor";
+
+	}
+	else if (numero < numero_random){
+		console.log("El numero es mayor");
+		mensaje.innerHTML = "El numero es mayor";
+	}
+	else{
+		console.log("Has acertado");
+		mensaje.innerHTML = "Has acertado";
+
+	}
+	});
+</script>
+</main>
+<footer>
+</footer>
+</body>
+</html>
