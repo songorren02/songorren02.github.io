@@ -1,0 +1,24 @@
+--2024-03-14 10:51:22--  https://mail.google.com/mail/u/0?ui=2
+Resolving mail.google.com (mail.google.com)... 142.250.200.69, 2a00:1450:4003:80f::2005
+Connecting to mail.google.com (mail.google.com)|142.250.200.69|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?ui%3D2&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1# [following]
+--2024-03-14 10:51:23--  https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?ui%3D2&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1
+Resolving accounts.google.com (accounts.google.com)... 142.250.110.84, 2a00:1450:400c:c0d::54
+Connecting to accounts.google.com (accounts.google.com)|142.250.110.84|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://accounts.google.com/InteractiveLogin?continue=https://mail.google.com/mail/?ui%3D2&emr=1&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&ifkv=ATuJsjzbkMDtLLC3Nxl2lWHFMSqrQSuAwrt9CzHV3gnELRklAu8k6vrRXcvW9fuXcACtutptfUhl3Q [following]
+--2024-03-14 10:51:23--  https://accounts.google.com/InteractiveLogin?continue=https://mail.google.com/mail/?ui%3D2&emr=1&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&ifkv=ATuJsjzbkMDtLLC3Nxl2lWHFMSqrQSuAwrt9CzHV3gnELRklAu8k6vrRXcvW9fuXcACtutptfUhl3Q
+Reusing existing connection to accounts.google.com:443.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fui%3D2&emr=1&ifkv=ATuJsjwZneL8UvdxeIH3zmW4FNxCp0G56yJS4aYScab-KVE8NTxJpNgOdzms1jhEzQt5W6b5Rxs8Sg&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1778371122%3A1710409883385458 [following]
+--2024-03-14 10:51:23--  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fui%3D2&emr=1&ifkv=ATuJsjwZneL8UvdxeIH3zmW4FNxCp0G56yJS4aYScab-KVE8NTxJpNgOdzms1jhEzQt5W6b5Rxs8Sg&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1778371122%3A1710409883385458
+Reusing existing connection to accounts.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘0?ui=2’
+
+0?ui=2                      [<=>                           ]       0  --.-KB/s               0?ui=2                      [ <=>                          ] 165.22K  --.-KB/s    in 0.1s    
+
+2024-03-14 10:51:23 (1.59 MB/s) - ‘0?ui=2’ saved [169185]
+

@@ -66,3 +66,15 @@ Las listas anidadas son listas dentro de listas
 	- ... dentro de otra con orden
 
 Para meter una lista dentro de otra, utilizamos la tabulación.
+
+### Imagenes
+
+Para añadir una imagen, hemos de dar una descripcion y el nombre de la imagen (con la ruta, si hiciera falta).
+
+![paco el loco](paco.jpg)
+
+La sintaxis es: exclamacion seguido de una descripcion de llaves anguladas, seguido de el nombre de la imagen entre parentesis (sin espacios entre exclamacion, llaves anguladas y parentesis)
+
+## Enlaces
+
+Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclamacion delante y se pueden introducir dentro de frases [como esta](http://enti.cat)
